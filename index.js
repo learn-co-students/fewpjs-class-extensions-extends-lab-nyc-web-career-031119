@@ -41,6 +41,6 @@ class Square extends Polygon{
 		const side2 = this.arr[1];
 		const side3 = this.arr[2];
 		const side4 = this.arr[3];
-		return ((side1 === side2) && (side1 === side3) && (side1 === side4) && (side2 === side3) && (side3 === side4))
+		return ((side1 === side2) && (side1 === side3) && (side1 === side4))
 	}
 }
