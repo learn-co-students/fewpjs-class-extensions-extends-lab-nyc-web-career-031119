@@ -36,7 +36,7 @@ describe( "Triangle", () => {
     expect( triangle.getCount ).to.eq( 3 )
 
     expect( triangle.isValid ).to.be.true
-    expect( triangle2.isValid ).to.be.false
+    expect( triangle2.isValid ).to.be.true
   } )
 
   it( "has a perimeter getter inherited from Polygon", () => {
